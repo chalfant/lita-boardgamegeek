@@ -1,9 +1,9 @@
 module Lita
   module Handlers
     class Boardgamegeek < Handler
-      route(/^bgg(?: me)\s+(.+)/i, :search, command: true)
+      route(/bgg(?: me)?\s+(.+)/, :search, command: true)
 
-      def search
+      def search(response)
 
       end
     end
