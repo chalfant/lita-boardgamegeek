@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["chalfants@gmail.com"]
   spec.description   = "lita handler for boardgamegeek searches"
   spec.summary       = "lita handler for boardgamegeek searches"
-  spec.homepage      = "TODO: Add a homepage"
+  spec.homepage      = "https://github.com/chalfant/lita-boardgamegeek"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
