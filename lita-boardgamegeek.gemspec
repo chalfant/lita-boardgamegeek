@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name          = "lita-boardgamegeek"
   spec.version       = "0.1.0"
   spec.authors       = ["Chris Chalfant"]
-  spec.email         = ["cchalfant@leafsoftwaresolutions.com"]
+  spec.email         = ["chalfants@gmail.com"]
   spec.description   = "lita handler for boardgamegeek searches"
   spec.summary       = "lita handler for boardgamegeek searches"
   spec.homepage      = "TODO: Add a homepage"
