@@ -3,7 +3,10 @@ require 'bgg-api'
 module Lita
   module Handlers
     class Boardgamegeek < Handler
-      route(/bgg(?: me)?\s+(.+)/, :search, command: true)
+      route(/bgg(?: me)?\s+(.+)/, :search, command: true, help: {
+        "bgg GAME" => "returns link to BGG entry for GAME",
+        "bgg me GAME" => "returns link to BGG entry for GAME"
+      })
 
       def search(response)
         term = response.match_data[1]

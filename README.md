@@ -1,6 +1,6 @@
 # lita-boardgamegeek
 
-TODO: Add a description of the plugin.
+Get a link to BGG entry for a game
 
 ## Installation
 
@@ -10,10 +10,7 @@ Add lita-boardgamegeek to your Lita instance's Gemfile:
 gem "lita-boardgamegeek"
 ```
 
-## Configuration
-
-TODO: Describe any configuration attributes the plugin exposes.
-
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+lita bgg agricola
+lita bgg me agricola
