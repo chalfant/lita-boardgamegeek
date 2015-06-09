@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-boardgamegeek"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Chris Chalfant"]
   spec.email         = ["chalfants@gmail.com"]
   spec.description   = "lita handler for boardgamegeek searches"
